@@ -1,6 +1,9 @@
 # Ignore node_modules since the Dockerfile has npm install inside it
 node_modules
 
+# Ignore dist since it will be created inside a container when it starts
+dist
+
 # .serverless is a leftover of task8 to deploy app in a Lambda
 .serverless
 
